@@ -9,6 +9,7 @@ public class ProgramLogger {
         }
         return programLogger;
     }
+    private ProgramLogger() {}
     public void addLogInfo(String logInfo) {
         logFile += logInfo + "\n";
     }
