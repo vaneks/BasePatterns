@@ -9,8 +9,8 @@ public class ProgramRun {
     }
     public static Expression getHumanitarianExpression() {
         Expression history = new TerminalExpression("History");
-        Expression javaCore = new TerminalExpression("English");
-        return new OrExpression(history, javaCore);
+        Expression english = new TerminalExpression("English");
+        return new OrExpression(history, english);
     }
     public static Expression getNaturalExpression() {
         Expression java = new TerminalExpression("Physics");
