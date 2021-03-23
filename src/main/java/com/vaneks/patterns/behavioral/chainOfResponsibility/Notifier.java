@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package main.java.com.vaneks.behavioral.chainOfResponsibility;
 
 public abstract class Notifier {
     private int priority;

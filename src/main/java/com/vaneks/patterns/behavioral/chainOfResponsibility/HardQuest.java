@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package main.java.com.vaneks.behavioral.chainOfResponsibility;
 
 public class HardQuest extends Notifier{
     public HardQuest(int priority) {

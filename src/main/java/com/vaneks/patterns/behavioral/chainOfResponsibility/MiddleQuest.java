@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package main.java.com.vaneks.behavioral.chainOfResponsibility;
 
 public class MiddleQuest extends Notifier{
     public MiddleQuest(int priority) {

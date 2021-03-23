@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package main.java.com.vaneks.behavioral.chainOfResponsibility;
 
 public class SimpleQuest extends Notifier {
     public SimpleQuest(int priority) {

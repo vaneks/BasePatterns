@@ -1,4 +1,6 @@
-package behavioral.chainOfResponsibility;
+package main.java.com.vaneks.behavioral.chainOfResponsibility;
+
+import main.java.com.vaneks.behavioral.chainOfResponsibility.*;
 
 public class ProgramRunner {
     public static void main(String[] args) {
