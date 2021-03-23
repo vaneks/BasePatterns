@@ -13,9 +13,9 @@ public class ProgramRun {
         return new OrExpression(history, english);
     }
     public static Expression getNaturalExpression() {
-        Expression java = new TerminalExpression("Physics");
-        Expression javaEE = new TerminalExpression("Мaths");
-        return new AndExpression(java, javaEE);
+        Expression physics = new TerminalExpression("Physics");
+        Expression maths = new TerminalExpression("Мaths");
+        return new AndExpression(physics, maths);
     }
 
 }
