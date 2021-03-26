@@ -1,0 +1,8 @@
+package main.java.com.vaneks.behavioral.visitor;
+
+public class DataBase implements ProjectElement {
+    @Override
+    public void beWriter(Developer developer) {
+        developer.create(this);
+    }
+}
