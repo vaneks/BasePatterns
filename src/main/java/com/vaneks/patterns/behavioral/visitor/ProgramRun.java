@@ -1,17 +1,17 @@
-package main.java.com.vaneks.patterns.behavioral.visitor;
+package main.java.com.vaneks.behavioral.visitor;
 
 public class ProgramRun {
     public static void main(String[] args) {
         Project project = new Project();
-        Visitor junior = new JuniorVisitor();
-        Visitor senior = new SeniorVisitor();
+        Developer junior = new JuniorDeveloper();
+        Developer senior = new SeniorDeveloper();
 
         System.out.println("Junior in Action...");
-        project.Accept(junior);
+        project.beWriter(junior);
 
         System.out.println("\n====================\n");
 
         System.out.println("Senior in Action...");
-        project.Accept(senior);
+        project.beWriter(senior);
     }
 }
