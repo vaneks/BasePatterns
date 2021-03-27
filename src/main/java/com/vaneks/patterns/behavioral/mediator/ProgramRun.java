@@ -1,4 +1,4 @@
-package main.java.com.vaneks.behavioral.mediator;
+package main.java.com.vaneks.patterns.behavioral.mediator;
 
 public class ProgramRun {
     public static void main(String[] args) {
