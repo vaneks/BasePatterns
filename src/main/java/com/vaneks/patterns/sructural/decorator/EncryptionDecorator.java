@@ -1,6 +1,6 @@
 package main.java.com.vaneks.patterns.sructural.decorator;
 
-public class EncryptionDecorator extends DataSourceDecarator {
+public class EncryptionDecorator extends DataSourceDecorator {
 
     public EncryptionDecorator(FileDataSource fileDataSource) {
         super(fileDataSource);
