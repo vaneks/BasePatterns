@@ -6,8 +6,8 @@ public class ProgramRunner {
         Notifier middleQuest = new MiddleQuest(Quest.SUPPORT);
         Notifier hardQuest = new HardQuest(Quest.ENGINEER);
 
-        simpleQuest.setNewxtNotifier(middleQuest);
-        middleQuest.setNewxtNotifier(hardQuest);
+        simpleQuest.setNextNotifier(middleQuest);
+        middleQuest.setNextNotifier(hardQuest);
 
         simpleQuest.notifyManager(" - Simple Answer", 1);
         System.out.println("");
